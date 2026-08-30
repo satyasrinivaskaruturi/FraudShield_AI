@@ -1,0 +1,46 @@
+{
+  "features": [
+    "amount",
+    "hour",
+    "customer_age_days",
+    "previous_transactions",
+    "previous_failures",
+    "avg_amount",
+    "amount_ratio",
+    "transactions_10min",
+    "transactions_1h",
+    "new_device",
+    "new_location",
+    "is_weekend"
+  ],
+  "metrics": {
+    "dataset_rows": 30000,
+    "fraud_rate": 0.0399,
+    "split": {
+      "train": 21000,
+      "validation": 4500,
+      "test": 4500
+    },
+    "threshold": 0.21000000000000002,
+    "fusion": {
+      "xgboost_weight": 0.8,
+      "isolation_forest_weight": 0.2
+    },
+    "anomaly_calibration": {
+      "lo": -0.18582631419769138,
+      "hi": 0.028093234309025876
+    },
+    "precision": 0.988950276243094,
+    "recall": 1.0,
+    "f1": 0.9944444444444445,
+    "pr_auc": 1.0,
+    "roc_auc": 1.0,
+    "true_negatives": 4319,
+    "false_positives": 2,
+    "false_negatives": 0,
+    "true_positives": 179,
+    "false_positive_cost": 100,
+    "false_negative_cost": 5000,
+    "test_business_cost": 200.0
+  }
+}

@@ -1,0 +1,8 @@
+streamlit>=1.40.0
+numpy
+pandas
+scikit-learn
+xgboost
+joblib
+SpeechRecognition
+gTTS

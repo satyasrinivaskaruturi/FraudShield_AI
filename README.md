@@ -41,6 +41,8 @@ Install dependencies:
 ```bash
 pip install -r requirements_voice_fixed.txt
 
+python -m streamlit run app_voice_pan_fixed2.py
+
 http://localhost:8501
 
 
